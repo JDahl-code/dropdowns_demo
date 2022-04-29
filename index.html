@@ -1,0 +1,49 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdowns</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <img id="animal_image" src="" alt="">
+    </div>
+    <div class="selections">
+        <div class="dropdown">
+            <label for="type">Type</label>
+            <select name="type" id="type">
+                <option hidden disabled selected value=""></option>
+                <option value="mammal">Mammal</option>
+                <option value="reptile">Reptile</option>
+                <option value="bird">Bird</option>
+                <option value="amphibian">Amphibian</option>
+                <option value="fish">Fish</option>
+                <option value="mollusk">Mollusk</option>
+                <option value="arthropod">Arthropod</option>
+            </select>
+        </div>
+        <div class="dropdown">
+            <label for="diet">Diet</label>
+            <select name="diet" id="diet">
+                <option hidden disabled selected value=""></option>
+                <option value="carnivore">Carnivore</option>
+                <option value="herbivore">Herbivore</option>
+                <option value="omnivore">Omnivore</option>
+            </select>
+        </div>
+        <div class="dropdown">
+            <label for="size">Size</label>
+            <select name="size" id="size">
+                <option hidden disabled selected value=""></option>
+                <option value="large">Large</option>
+                <option value="medium">Medium</option>
+                <option value="small">Small</option>
+            </select>
+        </div>
+    </div>
+    <button id="save">Save</button>
+    <script src="script.js"></script>
+</body>
+</html>
